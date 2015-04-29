@@ -106,3 +106,9 @@ rm -rf %{buildroot}
 %{_mandir}/man1/%{name}.1*
 
 %changelog
+* Wed Apr 29 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+- Add `schemaSpy.spec`
+- Add `schemaSpy.1` man page
+- Add Lambda Linux Patches
+- Add `schemaSpy-20150429-gitb1521aa.tar.gz`
+- Add `.gitattributes` and `.gitfat`
