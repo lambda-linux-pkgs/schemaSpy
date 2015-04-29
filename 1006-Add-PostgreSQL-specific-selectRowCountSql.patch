@@ -1,0 +1,22 @@
+From 36b59cc267808ba52a8dba63a0371ebf68db7155 Mon Sep 17 00:00:00 2001
+From: Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+Date: Wed, 29 Apr 2015 21:50:41 +0000
+Subject: [PATCH 1006/1007] Add PostgreSQL specific `selectRowCountSql`
+
+---
+ src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties b/src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties
+index ce4021c..cadd737 100755
+--- a/src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties
++++ b/src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties
+@@ -14,3 +14,5 @@ driver=org.postgresql.Driver
+ # Sample path to the postgresql drivers.
+ # Use -dp to override.
+ driverPath=/usr/share/java/postgresql-jdbc.jar
++
++selectRowCountSql=select reltuples as row_count from pg_class where relname=:table
+-- 
+2.1.0
+

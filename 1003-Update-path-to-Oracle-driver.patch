@@ -1,0 +1,25 @@
+From 1499a2f70cc38131277cb75e0137ec22dd0513ba Mon Sep 17 00:00:00 2001
+From: Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+Date: Wed, 29 Apr 2015 16:16:25 +0000
+Subject: [PATCH 1003/1007] Update path to Oracle driver
+
+---
+ src/main/resources/net/sourceforge/schemaspy/dbTypes/ora.properties | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/main/resources/net/sourceforge/schemaspy/dbTypes/ora.properties b/src/main/resources/net/sourceforge/schemaspy/dbTypes/ora.properties
+index e2abe8b..16b10fe 100755
+--- a/src/main/resources/net/sourceforge/schemaspy/dbTypes/ora.properties
++++ b/src/main/resources/net/sourceforge/schemaspy/dbTypes/ora.properties
+@@ -12,7 +12,7 @@ driver=oracle.jdbc.driver.OracleDriver
+ 
+ # Sample path to the oracle drivers.
+ # Use -dp to override.
+-driverPath=c:/Oracle8I/ora81/jdbc/lib/classes12.zip
++driverPath=/usr/lib/oracle/11.2/client64/lib/ojdbc6.jar
+ 
+ # this Oracle driver's metadata services aren't thread safe so limit its access to one thread
+ dbThreads=1
+-- 
+2.1.0
+

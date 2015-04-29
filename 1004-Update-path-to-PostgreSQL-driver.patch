@@ -1,0 +1,23 @@
+From 9d507cb1dc878bd0b417e9d81ec7443aab54c292 Mon Sep 17 00:00:00 2001
+From: Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+Date: Wed, 29 Apr 2015 16:18:58 +0000
+Subject: [PATCH 1004/1007] Update path to PostgreSQL driver
+
+---
+ src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties b/src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties
+index a0b3b4f..ce4021c 100755
+--- a/src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties
++++ b/src/main/resources/net/sourceforge/schemaspy/dbTypes/pgsql.properties
+@@ -13,4 +13,4 @@ driver=org.postgresql.Driver
+ 
+ # Sample path to the postgresql drivers.
+ # Use -dp to override.
+-driverPath=/whereever/postgresql-8.0-312.jdbc3.jar
+\ No newline at end of file
++driverPath=/usr/share/java/postgresql-jdbc.jar
+-- 
+2.1.0
+

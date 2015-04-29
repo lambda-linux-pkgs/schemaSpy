@@ -1,0 +1,22 @@
+From 74ad7e631b4a7e26d2a55053e75c7f1f338f6062 Mon Sep 17 00:00:00 2001
+From: Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+Date: Wed, 29 Apr 2015 16:00:57 +0000
+Subject: [PATCH 1001/1007] Update path to HSQLDB driver
+
+---
+ src/main/resources/net/sourceforge/schemaspy/dbTypes/hsqldb.properties | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/main/resources/net/sourceforge/schemaspy/dbTypes/hsqldb.properties b/src/main/resources/net/sourceforge/schemaspy/dbTypes/hsqldb.properties
+index a68fea3..e01206a 100755
+--- a/src/main/resources/net/sourceforge/schemaspy/dbTypes/hsqldb.properties
++++ b/src/main/resources/net/sourceforge/schemaspy/dbTypes/hsqldb.properties
+@@ -13,4 +13,4 @@ driver=org.hsqldb.jdbcDriver
+ 
+ # Sample path to the HSQLDB drivers.
+ # Use -dp to override.
+-driverPath=/HSQLDB/1.8.0/hsqldb.jar
++driverPath=/usr/share/java/hsqldb.jar
+-- 
+2.1.0
+

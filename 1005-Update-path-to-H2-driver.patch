@@ -1,0 +1,23 @@
+From 480abb2ec0f616a87dd1b5b8cdcfe57a1e93bea3 Mon Sep 17 00:00:00 2001
+From: Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+Date: Wed, 29 Apr 2015 21:47:53 +0000
+Subject: [PATCH 1005/1007] Update path to H2 driver
+
+---
+ src/main/resources/net/sourceforge/schemaspy/dbTypes/h2.properties | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/main/resources/net/sourceforge/schemaspy/dbTypes/h2.properties b/src/main/resources/net/sourceforge/schemaspy/dbTypes/h2.properties
+index 8b0c869..5e6aa99 100644
+--- a/src/main/resources/net/sourceforge/schemaspy/dbTypes/h2.properties
++++ b/src/main/resources/net/sourceforge/schemaspy/dbTypes/h2.properties
+@@ -10,4 +10,4 @@ driver=org.h2.Driver
+ 
+ # Sample path to the H2 drivers available at http://www.h2database.com
+ # Use -dp to override.
+-driverPath=/H2/h2-1.2.147.jar
+\ No newline at end of file
++driverPath=/usr/share/java/h2.jar
+-- 
+2.1.0
+

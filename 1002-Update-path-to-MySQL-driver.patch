@@ -1,0 +1,25 @@
+From a6ba0f6e0de15609e86440384f0731b272e0a4e6 Mon Sep 17 00:00:00 2001
+From: Rajiv M Ranganath <rajiv.ranganath@atihita.com>
+Date: Wed, 29 Apr 2015 16:11:36 +0000
+Subject: [PATCH 1002/1007] Update path to MySQL driver
+
+---
+ src/main/resources/net/sourceforge/schemaspy/dbTypes/mysql.properties | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/src/main/resources/net/sourceforge/schemaspy/dbTypes/mysql.properties b/src/main/resources/net/sourceforge/schemaspy/dbTypes/mysql.properties
+index ba80754..1a0cfb8 100755
+--- a/src/main/resources/net/sourceforge/schemaspy/dbTypes/mysql.properties
++++ b/src/main/resources/net/sourceforge/schemaspy/dbTypes/mysql.properties
+@@ -16,7 +16,7 @@ driver=com.mysql.jdbc.Driver
+ # Sample path to the MySQL drivers.
+ # Use -dp to override.
+ # The driver should be available at www.mysql.com/products/connector/j/
+-driverPath=/mysql/mysql-connector-java-5.1.6-bin.jar
++driverPath=/usr/share/java/mysql-connector-java.jar
+ 
+ # return table_schema, table_name, table_comment, table_rows 
+ #   for a specific :schema (which MySQL doesn't have, so the db name will be used)
+-- 
+2.1.0
+
